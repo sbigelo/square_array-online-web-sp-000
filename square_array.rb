@@ -1,5 +1,4 @@
 def square_array(array)
- array.each |key| 
-   key ** 2
+ array.each{|key| key ** 2}
  
 end
